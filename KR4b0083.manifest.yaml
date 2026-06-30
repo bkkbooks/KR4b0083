@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR4b0083/v1
+canonical_location: https://kanripo.org/bkk/KR4b0083/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 成公子安集二卷
+  identifiers:
+    krp: KR4b0083
+  tags:
+    kr-categories: KR4b
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4b0083.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4b0083_001.yaml, hash: 'sha256:906d211599b64387874060e5c885a9aa8e9e65ed6b08c165643b41cff31a0924'}
+  - {seq: 2, filename: KR4b0083_002.yaml, hash: 'sha256:639d8f923b85f37d2eac4ef81c1a381a7867224abb0fe12691891101c025e053'}
+  - {seq: 3, filename: KR4b0083_003.yaml, hash: 'sha256:80a9ee1e8e5d2bcf535d9898856bb7abeac9125ddbe14cd23b2b48544cd04ced'}
+  markers:
+  - {seq: 2, role: markers, filename: assets/KR4b0083_002.markers.yaml, hash: 'sha256:6c4ace92f0e4701a5bdd4f6cbc81c92666292d6fdd3037d9dcebc7430e61cbfd'}
+  - {seq: 3, role: markers, filename: assets/KR4b0083_003.markers.yaml, hash: 'sha256:919f514de74d3b65e486ad3b3ec245f39b7c4396878aab0ffba1f21b5e4de548'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4b0083_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 299
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4b0083_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 5056
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4b0083_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 804
+  label: 附錄
+  type: section
+  level: 1
+hash: sha256:adc5dd65359d692cd2541500166b247d61e0247450180238dfa407b42b350d49
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
